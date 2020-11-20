@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 50;
+  background-color: #050505;
+  color: white;
+  font-family: 'Courgette', cursive;
+}
+img{
+  height: 250px;
+  border-radius: 80%;
+}
+.profile{
+  justify-content: center;
+  text-align: center;
+}
+.pftxt{
+  text-align: center;
+}
+.pages{
+  justify-content: center;
+  text-align: center;
+  line-height: 2;
+}
+h1 {
+  margin: 0 auto 0 auto;
+  font-size: 2.56rem;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+}
+h1.tlt{
+  margin-left: 200px;
+  font-size: 2.56rem;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+}
+h2 {
+  font-family: 'Courgette', cursive;
+  font-size: 2.5rem;
+  color: white;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+  color: white;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00b7c2;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+p.big {
+  line-height: 5;
+}
+hr {
+  display: block;
+  margin: 580px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  width: 25%;
+  align: center;
+}
+.footer{
+   color: white;
+   text-align: center;
+}
+p.ud {
+  margin-left: 200px;
+  margin-right: 140px;
+}
+.contact{
+  justify-content: center;
+  text-align: center;
+}
+.form{
+  justify-content: center;
+  text-align: center;
+  background-color: #d92027;
+  margin-left: 610px;
+  margin-right:610px;
+  background-position: center;
+  backface-visibility: visible;
+  height: 260px;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  padding: 11px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.vh{
+  justify-content: center;
+  text-align: center;
+}
+.dis{
+  text-align: center;
+}

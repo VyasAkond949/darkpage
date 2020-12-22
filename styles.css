@@ -88,6 +88,7 @@ hr {
 }
 .footer{
    color: white;
+   position: fixed;
    text-align: center;
 }
 p.ud {
@@ -103,7 +104,7 @@ p.ud {
   text-align: center;
   background-color: #d92027;
   margin-left: 610px;
-  margin-right:610px;
+  margin-right:610px; 
   background-position: center;
   backface-visibility: visible;
   height: 260px;

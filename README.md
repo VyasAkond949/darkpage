@@ -1,4 +1,4 @@
-# Online portfolio of Vyas Akondi
+# Resume of Vyas Akondi
 
 ## Contents in webpage:
 

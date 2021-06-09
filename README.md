@@ -1,2 +1,8 @@
-# My-Resume
-Using HTML and CSS, I created this webpage. Some part of JS is also in this webpage. For hosting purpose i picked github. 
+# Online portfolio of Vyas Akondi
+
+## Contents in webpage:
+
+1. Home
+2. Projects and Publications
+3. Contact Me 
+

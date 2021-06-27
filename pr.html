@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="v.ico" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title> Vyas Akondi's Projects</title>
+  <style media="screen">
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial;
+    }
+
+    .split {
+      height: 100%;
+      width: 50%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+
+    .left {
+      top: 10;
+      left: 0;
+      background-color: #111;
+    }
+
+    .right {
+      top: 10;
+      right: 0;
+      background-color: red;
+    }
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .centered img {
+      width: 150px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="home.html">Vyas Akondi</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="Home.html">Home</a></li>
+        <li class="active"><a href="pr.html">Projects</a></li>
+        <li><a href="cnt.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="split left">
+    <div class="centered">
+      <h2>A new authentication scheme using QR code</h2>
+      <p> After entering password before otp to validate user we use unique QR code. </p>
+      <a href="#">Click here for the documentation</a>
+    </div>
+  </div>
+
+  <div class="split right">
+    <div class="centered">
+      <h2>Bank Data Analysis</h2>
+      <p>This use case is used to predict the safe loan amount that can be sanctioned to a customer. This use case can predict the risk amount of 3 different types by taking input bank statement from the customer
+</p>
+      <a href="bda.pptx">Click here for the documentation</a>
+    </div>
+  </div>
+</body>
+
+</html>
